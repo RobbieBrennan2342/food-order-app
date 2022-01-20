@@ -1,0 +1,37 @@
+.header{
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #666;
+   
+}
+
+.main-image {
+    width: 100%;
+    height: 20rem;
+    z-index: 0;
+    overflow: hidden;
+  }
+
+.main-image::after{
+    content: 'Hello';
+    position: absolute;
+    top: 0;
+    color: #fff;
+    left: 0;
+    height: 20rem;
+    width: 100%;
+    background-color: #000;
+    opacity: .3;
+}
+
+  .main-image img {
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
+    
+  }

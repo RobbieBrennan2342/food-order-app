@@ -1,0 +1,9 @@
+.menuItem{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.menuItemPrice{
+    display: flex;
+}

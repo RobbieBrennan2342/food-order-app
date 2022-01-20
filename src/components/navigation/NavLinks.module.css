@@ -1,0 +1,23 @@
+.navLinks{
+    display: flex;
+}
+.navLinks li{
+    cursor: pointer;
+    padding: 0 20px;
+    list-style: none;
+}
+
+.navLinks li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 0.4rem;
+    color: #000;
+    border-radius: 15px;
+}
+
+.navLinks li a:hover{
+    transition: 0.3s;
+    background-color: rgb(221, 218, 218);
+    color: rgb(80, 73, 73);
+}
