@@ -1,12 +1,17 @@
-import React from "react";
-// import classes from "MealItemform.module.css";
+import React, { useRef } from "react";
+import classes from "./MealItemForm.module.css";
+import Input from "./MealInput";
+import MealInput from "./MealInput";
+
 const MealItemForm = () => {
+  const amountInputRef = useRef();
+
+  const MealItemHandler = (e) => {
+    e.preventDefault();
+  };
   return (
-    <form>
-      <div>
-        <input type="number" min="1"></input>
-      </div>
-      <button>+ Add</button>
+    <form onSubmit={MealItemHandler}>
+      <Input ref={amountInputRef} type="number" min="1" default="1" />
     </form>
   );
 };

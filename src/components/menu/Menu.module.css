@@ -1,6 +1,9 @@
 .mealDetails{
     display: flex;
     justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     margin-bottom: 30px;
     padding: 10px;
+    font-size: 1.1rem;
 }

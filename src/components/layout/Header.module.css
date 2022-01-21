@@ -6,7 +6,7 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    background-color: #666;
+    background-color: rgb(197, 45, 45);
    
 }
 
@@ -18,7 +18,7 @@
   }
 
 .main-image::after{
-    content: 'Hello';
+    content: '';
     position: absolute;
     top: 0;
     color: #fff;

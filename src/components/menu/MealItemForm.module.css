@@ -1,3 +1,32 @@
-.card{
+.mealItemForm{
     display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 1px rgba(37,41,37,0.82);
+    background-color: rgb(191, 191, 209);
+}
+
+.mealItemForm input{
+    width: 3rem;
+    outline: 0;
+    padding: 3px;
+    text-align: center;
+    margin-bottom: 6px;
+    font-weight: bold;
+    
+}
+
+.mealItemForm input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+
+.mealItemBtn{
+    outline: none;
+    background-color: rgba(37,41,37,0.82);
+    color: #fff;
+    padding: 2px;
+    border-radius: 6px;
 }

@@ -10,7 +10,6 @@ const Menu = () => {
     <Card>
       <div className={classes.mealDetails}>
         <p>Dish</p>
-
         <p>Quantity</p>
       </div>
       {MenuList.map((items) => (
