@@ -5,12 +5,12 @@ import restaurantImage from "../../assets/headerImage.jpg";
 
 import classes from "./Header.module.css";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <>
       <header className={classes.header}>
         <h1>Your Restaurant Name</h1>
-        <HeaderCartBtn />
+        <HeaderCartBtn onClick={props.onShowCart} />
       </header>
       <div className={classes["main-image"]}>
         <img src={restaurantImage} alt="your restaurant image" />

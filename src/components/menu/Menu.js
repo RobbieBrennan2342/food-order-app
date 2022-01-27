@@ -1,8 +1,8 @@
-import React from "react";
+import { useState } from "react";
 import Card from "../../UI/Card";
 import MenuItem from "./MenuItem";
 import MenuList from "./MenuList";
-
+import Modal from "../../UI/Modal";
 import classes from "./Menu.module.css";
 
 const Menu = () => {

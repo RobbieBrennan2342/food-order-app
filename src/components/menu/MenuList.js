@@ -5,7 +5,8 @@ export const MenuList = [
     id: "m1",
     name: "Fried Rice",
     amount: 5,
-    description: "Fried rice with peas, carrots and onions",
+    description:
+      "Fried rice with peas, carrots and onionscarrots and onionscarrots and onions",
     allergens: "Gluten, soy, egg",
   },
   {

@@ -10,14 +10,17 @@
     margin-bottom: 15px;
     padding: 10px ;
     font-size: 1.1rem;
-    width: 80%;
+    
+    width: 70%;
 }
 
 .menuItem{
     font-family: 'Roboto', sans-serif;
     border-radius: 10px;
     padding: 12px;
-    background-color: rgb(191, 191, 209);
+    background-color: #fff;
+    min-width: 300px;
+    max-width: 350px;
     box-shadow: 0px 5px 15px 1px rgba(37,41,37,0.82);
 }
 
